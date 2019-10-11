@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet("/courses")
+@WebServlet("/")
 public class CoursesServlet extends ViewHttpServlet {
     private final CoursesService coursesService;
     private final HtmlService htmlService;

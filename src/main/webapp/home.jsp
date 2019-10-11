@@ -7,6 +7,6 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
-    <%= request.getPathInfo()%>
+    <h1> Hello JSP Demo</h1>
 </body>
 </html>
